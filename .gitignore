@@ -1,0 +1,30 @@
+# Environment & Virtualenvs
+venv/
+env/
+.venv/
+ENV/
+
+# Data & Model Weights (Large files)
+data/
+*.npy
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Python Cache & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
