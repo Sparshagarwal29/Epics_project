@@ -6,11 +6,18 @@ ENV/
 
 # Data & Model Weights (Large files)
 data/
+raw_eurosat/
+raw_satellite/
+raw_data/
 *.npy
 *.pt
 *.pth
 *.onnx
 *.safetensors
+
+# Generated Output Images & Visualizations
+*.png
+prediction_result.png
 
 # Python Cache & Compiled Files
 __pycache__/
